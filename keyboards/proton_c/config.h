@@ -24,17 +24,20 @@
 #define DEVICE_VER      0x0006
 #define MANUFACTURER    QMK
 #define PRODUCT         Proton C
-#define DESCRIPTION     A compact ortholinear keyboard
+#define DESCRIPTION     65% with a compact left-handed numpad
 
 /* key matrix size */
-#define MATRIX_ROWS 1
-#define MATRIX_COLS 1
+#define MATRIX_ROWS 5
+#define MATRIX_COLS 20
 
-#define MATRIX_ROW_PINS { B9 }
-#define MATRIX_COL_PINS { B0 }
+#define MATRIX_ROW_PINS { B9, B10, B11, B12, A15, A8, A7, A6, A5, A4, B0, B1, B2, B3, B4, B5, B6, B7, A13, A14 }
+#define MATRIX_COL_PINS { A0, B8, B13, B14, B15 }
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 6
+
+/* Diode Direction */
+#define DIODE_DIRECTION COL2ROW
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 //#define LOCKING_SUPPORT_ENABLE
