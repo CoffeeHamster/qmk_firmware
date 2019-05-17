@@ -28,10 +28,10 @@
 
 /* key matrix size */
 #define MATRIX_ROWS 5
-#define MATRIX_COLS 20
+#define MATRIX_COLS 21
 
-#define MATRIX_ROW_PINS { B9, B10, B11, B12, A15, A8, A7, A6, A5, A4, B0, B1, B2, B3, B4, B5, B6, B7, A13, A14 }
-#define MATRIX_COL_PINS { A0, B8, B13, B14, B15 }
+#define MATRIX_ROW_PINS { A0, B8, B13, B14, B15 }
+#define MATRIX_COL_PINS { B9, B10, B11, B12, A15, A8, A7, A6, A5, A4, B0, B1, B2, B3, B4, B5, B6, B7, A13, A14 }
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 6
